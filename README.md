@@ -14,11 +14,14 @@ The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges 
 ### Step 5: Keep updating the values for all states until the difference between the old and new values is very small.
 ### Step 6: Once the values have stabilized, go through each state again and pick the action that leads to the highest value. This gives you the optimal action (policy) for each state.
 
+
 ## VALUE ITERATION FUNCTION
+
 ### Name: SANTHANA LAKSHMI K
 ### Register Number: 212222240091
-Include the value iteration function
 
+
+Include the value iteration function
 ```
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
